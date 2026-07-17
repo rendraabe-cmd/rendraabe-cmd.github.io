@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Achmad Rendra Mustofa — Developer Profile</title>
+<meta name="description" content="Fullstack Developer specializing in Laravel and Vue.js" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .font-display { font-family: 'Playfair Display', serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  .gold-gradient { background: linear-gradient(135deg, #d4af37 0%, #f4e5b4 50%, #d4af37 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .gold-border { border-color: #d4af37; }
+  .gold-bg { background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); }
+  .card-dark { background: linear-gradient(145deg, #14141c 0%, #1a1a24 100%); border: 1px solid rgba(212, 175, 55, 0.15); transition: all 0.4s ease; }
+  .card-dark:hover { border-color: rgba(212, 175, 55, 0.4); transform: translateY(-4px); box-shadow: 0 20px 40px rgba(212, 175, 55, 0.1); }
+  .hero-bg { background: radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.15) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.1) 0%, transparent 50%), #0a0a0f; }
+  .grid-pattern { background-image: linear-gradient(rgba(212, 175, 55, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(212, 175, 55, 0.05) 1px, transparent 1px); background-size: 50px 50px; }
+  .fade-in { animation: fadeIn 1s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(20px);} to {opacity:1; transform:translateY(0);} }
+  .glow-ring { box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1), 0 0 40px rgba(212, 175, 55, 0.3); }
+  .divider-gold { height: 1px; background: linear-gradient(90deg, transparent, #d4af37, transparent); }
+  .btn-gold { background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); color: #0a0a0f; transition: all 0.3s; }
+  .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4); }
+  .badge-gold { background: rgba(212, 175, 55, 0.1); border: 1px solid rgba(212, 175, 55, 0.3); color: #d4af37; }
+  .code-block { background: #0d0d14; border: 1px solid rgba(212, 175, 55, 0.1); }
+</style>
+</head>
+<body class="text-slate-200">
+
+<!-- NAVBAR -->
+<nav class="sticky top-0 z-50 bg-[#0a0a0f]/90 backdrop-blur-lg border-b border-[#d4af37]/10">
+  <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+    <a href="index.html" class="font-display text-2xl font-bold gold-gradient">A.R.M</a>
+    <div class="hidden md:flex gap-8 text-sm font-medium text-slate-300 items-center">
+      <a href="index.html" class="hover:text-[#d4af37] transition">← Business Profile</a>
+      <a href="#stack" class="hover:text-[#d4af37] transition">Tech Stack</a>
+      <a href="#projects" class="hover:text-[#d4af37] transition">Projects</a>
+      <a href="#services" class="hover:text-[#d4af37] transition">Services</a>
+    </div>
+    <a href="mailto:achmad.rendra@gmail.com" class="btn-gold text-sm px-5 py-2.5 rounded-full font-semibold">Hire Me</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-bg relative overflow-hidden">
+  <div class="absolute inset-0 grid-pattern opacity-30"></div>
+  <div class="max-w-6xl mx-auto px-6 pt-24 pb-20 relative z-10 fade-in">
+    <div class="text-center max-w-4xl mx-auto">
+      <div class="inline-block badge-gold px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider mb-6 font-mono">
+        &lt;/&gt; DEVELOPER PROFILE
+      </div>
+      <h1 class="font-display text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+        Fullstack Developer & <span class="gold-gradient">Cloud Engineer</span>
+      </h1>
+      <p class="text-xl text-slate-300 font-light mb-3 max-w-2xl mx-auto">
+        Specialized in <span class="text-[#d4af37]">Laravel</span>, <span class="text-[#d4af37]">Vue.js</span>, and modern cloud infrastructure
+      </p>
+      <p class="text-sm text-slate-500 font-mono">
+        // Building production-ready web applications since 2020
+      </p>
+      
+      <div class="flex gap-3 justify-center flex-wrap mt-10">
+        <a href="https://github.com/rendraabe-cmd" target="_blank" class="btn-gold px-6 py-3 rounded-full font-semibold text-sm">
+          🐙 View GitHub
+        </a>
+        <a href="index.html" class="border gold-border text-[#d4af37] px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#d4af37]/10 transition">
+          ← Back to Business Profile
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <div class="card-dark rounded-2xl p-10 md:p-12">
+    <div class="grid md:grid-cols-3 gap-8 items-center">
+      <div class="relative">
+        <div class="absolute -inset-4 gold-bg rounded-full opacity-20 blur-2xl"></div>
+        <img src="https://avatars.githubusercontent.com/u/296101238?v=4" alt="Achmad Rendra Mustofa" class="relative w-40 h-40 mx-auto rounded-full object-cover glow-ring">
+      </div>
+      <div class="md:col-span-2">
+        <p class="text-[#d4af37] text-sm font-semibold tracking-widest mb-2 font-mono">// ABOUT</p>
+        <h2 class="font-display text-3xl font-bold text-white mb-4">Bridging Business & Technology</h2>
+        <p class="text-slate-300 leading-relaxed mb-3">
+          Beyond my business development expertise, I actively build web applications using <strong class="text-white">PHP/Laravel</strong> and <strong class="text-white">Vue.js</strong>. This technical background gives me a rare edge — I understand both the business and the code.
+        </p>
+        <p class="text-slate-400 leading-relaxed text-sm">
+          Available for freelance projects, technical consulting, and hybrid roles that combine business strategy with hands-on development.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-gold max-w-6xl mx-auto"></div>
+
+<!-- TECH STACK -->
+<section id="stack" class="max-w-6xl mx-auto px-6 py-24">
+  <div class="text-center mb-16">
+    <p class="text-[#d4af37] text-sm font-semibold tracking-widest mb-3 font-mono">// TECH STACK</p>
+    <h2 class="font-display text-4xl md:text-5xl font-bold text-white">Technologies I <span class="gold-gradient">Work With</span></h2>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">⚙️</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">Backend</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// Server-side development</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Laravel 11/12</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">PHP 8.4</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">REST API</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Sanctum</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Eloquent ORM</span>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">🎨</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">Frontend</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// User interfaces</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Vue.js 3</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">React</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Pinia</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Tailwind CSS</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Vite</span>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">🗄️</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">Database</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// Data management</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">MySQL</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">PostgreSQL</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">SQLite</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Database Design</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Query Optimization</span>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">☁️</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">DevOps & Cloud</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// Deployment & infrastructure</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Docker</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Nginx</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">GitHub Actions</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">CI/CD</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Cloud Deployment</span>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">🔧</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">Tools & Utilities</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// Development tools</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Git</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Postman</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">DomPDF</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Resend API</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">VS Code</span>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="w-14 h-14 rounded-xl gold-bg flex items-center justify-center mb-5 text-2xl">🔐</div>
+      <h3 class="font-display text-2xl font-bold text-white mb-3">Specializations</h3>
+      <p class="text-slate-500 text-xs font-mono mb-4">// Focus areas</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Authentication</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">SaaS Development</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">API Design</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Responsive UI</span>
+        <span class="badge-gold text-xs px-3 py-1.5 rounded-full">Performance</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-gold max-w-6xl mx-auto"></div>
+
+<!-- PROJECTS -->
+<section id="projects" class="max-w-6xl mx-auto px-6 py-24">
+  <div class="text-center mb-16">
+    <p class="text-[#d4af37] text-sm font-semibold tracking-widest mb-3 font-mono">// FEATURED PROJECTS</p>
+    <h2 class="font-display text-4xl md:text-5xl font-bold text-white">Selected <span class="gold-gradient">Work</span></h2>
+    <p class="text-slate-400 mt-4">Open source projects available on GitHub</p>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="flex items-start justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl gold-bg flex items-center justify-center text-xl">🛒</div>
+        <span class="badge-gold text-xs px-3 py-1 rounded-full font-mono">Fullstack</span>
+      </div>
+      <h3 class="font-display text-2xl font-bold text-white mb-2">Mini POS System</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        A complete Point of Sale system with product management, transactions, and reporting. Built with Vue.js 3 frontend and Laravel 11 backend.
+      </p>
+      <div class="flex flex-wrap gap-2 mb-5">
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Vue.js</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Laravel</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">MySQL</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Sanctum</span>
+      </div>
+      <div class="flex gap-3">
+        <a href="https://github.com/rendraabe-cmd/mini-pos-frontend" target="_blank" class="text-[#d4af37] text-sm hover:text-white transition font-medium">Frontend →</a>
+        <a href="https://github.com/rendraabe-cmd/mini-pos-backend" target="_blank" class="text-[#d4af37] text-sm hover:text-white transition font-medium">Backend →</a>
+      </div>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="flex items-start justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl gold-bg flex items-center justify-center text-xl">✅</div>
+        <span class="badge-gold text-xs px-3 py-1 rounded-full font-mono">REST API</span>
+      </div>
+      <h3 class="font-display text-2xl font-bold text-white mb-2">Task Management API</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        RESTful API for task management with authentication, CRUD operations, and role-based access control. Built with Laravel 11 and Sanctum.
+      </p>
+      <div class="flex flex-wrap gap-2 mb-5">
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Laravel 11</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">MySQL</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Sanctum</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">REST</span>
+      </div>
+      <a href="https://github.com/rendraabe-cmd/task-management-api" target="_blank" class="text-[#d4af37] text-sm hover:text-white transition font-medium">View Repository →</a>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="flex items-start justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl gold-bg flex items-center justify-center text-xl">🌐</div>
+        <span class="badge-gold text-xs px-3 py-1 rounded-full font-mono">Web App</span>
+      </div>
+      <h3 class="font-display text-2xl font-bold text-white mb-2">Portfolio Website</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        Personal portfolio website built with Laravel 11 and Tailwind CSS. Features responsive design and content management.
+      </p>
+      <div class="flex flex-wrap gap-2 mb-5">
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Laravel</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Blade</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Tailwind CSS</span>
+      </div>
+      <a href="https://github.com/rendraabe-cmd/portfolio-website" target="_blank" class="text-[#d4af37] text-sm hover:text-white transition font-medium">View Repository →</a>
+    </div>
+
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="flex items-start justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl gold-bg flex items-center justify-center text-xl">📄</div>
+        <span class="badge-gold text-xs px-3 py-1 rounded-full font-mono">Premium</span>
+      </div>
+      <h3 class="font-display text-2xl font-bold text-white mb-2">Premium Online CV</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        Premium online CV application with PDF download feature. Built with Laravel 11, Tailwind CSS, and DomPDF for document generation.
+      </p>
+      <div class="flex flex-wrap gap-2 mb-5">
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Laravel</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">DomPDF</span>
+        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded font-mono">Tailwind CSS</span>
+      </div>
+      <span class="text-slate-500 text-sm font-medium">Private Repository</span>
+    </div>
+
+  </div>
+
+  <div class="text-center mt-10">
+    <a href="https://github.com/rendraabe-cmd" target="_blank" class="inline-flex items-center gap-2 btn-gold px-8 py-3 rounded-full font-semibold text-sm">
+      🐙 View All on GitHub
+    </a>
+  </div>
+</section>
+
+<div class="divider-gold max-w-6xl mx-auto"></div>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-6xl mx-auto px-6 py-24">
+  <div class="text-center mb-16">
+    <p class="text-[#d4af37] text-sm font-semibold tracking-widest mb-3 font-mono">// WHAT I DO</p>
+    <h2 class="font-display text-4xl md:text-5xl font-bold text-white">Development <span class="gold-gradient">Services</span></h2>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="text-2xl mb-3">🚀</div>
+      <h3 class="font-display text-xl font-bold text-white mb-2">Web Application Development</h3>
+      <p class="text-slate-400 text-sm">Full-stack web applications from concept to deployment, with modern tech stacks and best practices.</p>
+    </div>
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="text-2xl mb-3">🔌</div>
+      <h3 class="font-display text-xl font-bold text-white mb-2">RESTful API Development</h3>
+      <p class="text-slate-400 text-sm">Scalable and secure REST APIs with authentication, documentation, and clean architecture.</p>
+    </div>
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="text-2xl mb-3">🎨</div>
+      <h3 class="font-display text-xl font-bold text-white mb-2">Frontend Development</h3>
+      <p class="text-slate-400 text-sm">Modern, responsive user interfaces with Vue.js, React, and Tailwind CSS.</p>
+    </div>
+    <div class="card-dark p-8 rounded-2xl">
+      <div class="text-2xl mb-3">☁️</div>
+      <h3 class="font-display text-xl font-bold text-white mb-2">Deployment & DevOps</h3>
+      <p class="text-slate-400 text-sm">Docker containerization, CI/CD pipelines, and cloud infrastructure setup.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="max-w-6xl mx-auto px-6 py-24">
+  <div class="card-dark rounded-3xl p-12 md:p-16 text-center relative overflow-hidden">
+    <div class="absolute inset-0 grid-pattern opacity-20"></div>
+    <div class="relative z-10">
+      <p class="text-[#d4af37] text-sm font-semibold tracking-widest mb-3 font-mono">// LET'S BUILD TOGETHER</p>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-5">Have a Project in <span class="gold-gradient">Mind?</span></h2>
+      <p class="text-slate-400 max-w-xl mx-auto mb-10 text-lg">Available for freelance projects, technical consulting, and full-time opportunities.</p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="mailto:achmad.rendra@gmail.com" class="btn-gold px-8 py-4 rounded-full font-semibold">✉ achmad.rendra@gmail.com</a>
+        <a href="https://github.com/rendraabe-cmd" target="_blank" class="border gold-border text-[#d4af37] px-8 py-4 rounded-full font-semibold hover:bg-[#d4af37]/10 transition">🐙 GitHub</a>
+        <a href="index.html" class="border border-slate-600 text-slate-300 px-8 py-4 rounded-full font-semibold hover:border-[#d4af37] hover:text-[#d4af37] transition">← Business Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-[#d4af37]/10 mt-12">
+  <div class="max-w-6xl mx-auto px-6 py-8 text-center">
+    <p class="font-display text-lg gold-gradient font-bold mb-2">Achmad Rendra Mustofa</p>
+    <div class="flex gap-4 justify-center text-xs text-slate-500 mb-2">
+      <a href="index.html" class="hover:text-[#d4af37] transition">Business Profile</a>
+      <span>·</span>
+      <a href="developer.html" class="hover:text-[#d4af37] transition">Developer Profile</a>
+    </div>
+    <p class="text-slate-500 text-xs font-mono">© 2025 · Built with Tailwind CSS</p>
+  </div>
+</footer>
+
+</body>
+</html>
